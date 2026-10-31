@@ -284,8 +284,8 @@ img { max-width: 100%; display: block; }
 
 /* ===== Contact ===== */
 .contact-box { max-width: 720px; text-align: center; }
-.contact-line { font-size: 1.2rem; font-weight: 600; }
 .contact-note { color: var(--muted); }
+.contact-form { text-align: left; margin-top: 32px; }
 
 /* ===== Footer ===== */
 .site-footer { background: var(--maroon-dark); color: #f1e3d3; padding: 56px 0 0; }
@@ -335,3 +335,5 @@ img { max-width: 100%; display: block; }
   .apply-form { padding: 22px; }
   .hero-buttons .btn { width: 100%; text-align: center; }
 }
+
+.hidden-field { display: none; }
